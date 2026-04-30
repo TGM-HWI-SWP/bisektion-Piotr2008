@@ -3,23 +3,22 @@
 # Bisektion Vorlage
 
 ## Beschreibung
-Dieses Projekt dient als Vorlage für ein kleines Softwareentwicklungs- und Projektmanagement-Projekt. Es enthält verschiedene Aufgaben, die jeweils in separaten Dateien bearbeitet werden.
+Dieses Projekt behandelt das numerische Lösen von Nullstellen stetiger Funktionen.  
+Dafür werden die Bisektionsmethode und die Regula-falsi-Methode verwendet.  
+Zusätzlich werden Genauigkeitstests durchgeführt, eine grafische Darstellung mit matplotlib erstellt und ein reales Anwendungsbeispiel zur Leitungslänge berechnet.
 
 ## Aufgaben
-- Aufgabe5.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe6.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe7.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe8.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe9.py: [Kurze Beschreibung der Aufgabe]
+- Aufgabe5.py: Nullstellenberechnung mit der Bisektionsmethode
+- Aufgabe6.py: Alternative Nullstellenberechnung mit der Regula-falsi-Methode
+- Aufgabe7.py: Grafische Darstellung der Nullstellenfindung mit matplotlib
+- Aufgabe8.py: Genauigkeitstests an einem Polynom
+- Aufgabe9.py: Berechnung der Länge einer durchhängenden Leitung
 
 ## Voraussetzungen
 - Python 3.x
+- matplotlib für Aufgabe 7
 
-## Ausführung
-Jede Aufgabe kann einzeln ausgeführt werden:
+Installation von matplotlib:
 
-
-## Projektstruktur
-- `Aufgabe5.py` bis `Aufgabe9.py`: Implementierungen der einzelnen Aufgaben
-- `ReadMe.md`: Diese Datei
-- `__init__.py`: Initialisierungsdatei für das Paket
+```bash
+pip install matplotlib
